@@ -1,0 +1,92 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:#000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    border:solid #000000;
+    position: -webkit-sticky;
+    position: sticky;
+}
+body{
+    margin: 20px;
+    /* modify background color here*/
+    background-color: aquamarine;
+    font-family: Eras ITC;
+    color: #ff1493;
+    
+}
+
+a{
+    text-decoration :none
+}
+a:link{
+    color:#ffffff;
+}
+
+/*a:old*/
+/*a:clicked*/
+/*a:seen{*/
+a:visited{
+    color: #ffffff;
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    font-family: sans-serif;
+    
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+
+.bodyimg h3{
+    color:#f7f2f2;
+    font-family: fantasy;
+    font-size: 50px;
+    width: 1100px;
+    position: absolute;
+    top:55%;
+    left:40%;
+    transform: translate(-40%, -40%);
+}
+
+.bodyimg p{
+    color:#f7f2f2;
+    font-size: 35px;
+    font-family: fantasy;
+    position:absolute;
+    top:19%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.origami {
+    
+    border-radius: 15px;
+    background-color: #ffffff;
+    /* modify margin and padding here*/
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin: 20px;
+    width:290px;
+
+    font-family: fantasy;
+}
+
+.origami:hover{
+    /*.origami : mouseover{*/
+    /*.origami:link{*/
+    /*origami:hover{*/
+    
+        transform: scale(1.2);
+    }
